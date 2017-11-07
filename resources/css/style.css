@@ -4,14 +4,24 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+
+  color:black;
+
 }
 .logo {
     color:MediumAquamarine;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    margin: 5px;
 }
-.nav a {
-  display: flex;
-  display:inline-block;
-  align-content: flex-end;
-  color: black;
-  text-decoration: underline;
+a {
+  display:flex;
+  color:black;
+  align-items: center;
+  display: inline-flex;
+  margin: 25px;
+  font-weight: bold;
+
 }
