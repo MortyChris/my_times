@@ -3,9 +3,15 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
+  border:1px solid black;
   color:black;
-
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  align-items: center;
+  margin: -09px -09px;
 }
 .logo {
     color:MediumAquamarine;
@@ -14,7 +20,9 @@ header {
     flex-grow: 1;
     padding-left: 30px;
     margin: 5px;
+
 }
+
 a {
   display:flex;
   color:black;
@@ -25,9 +33,10 @@ a {
 }
 .content {
   display:flex;
-  margin-top:35px;
-  margin-bottom: 75px;
-  margin-left:125px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+
 }
 .large.column {
   width: 630px;
